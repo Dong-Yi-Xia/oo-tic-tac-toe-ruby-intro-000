@@ -103,9 +103,10 @@ class TicTacToe
 
   def winnner
     if won?
-      if @board[won?[0]] == "X"
+      letter = won?[0]
+      if @board[letter] == "X"
         return "X"
-      elsif @board[won?[0]] == "O"
+      else
         return "O"
       end
     end
