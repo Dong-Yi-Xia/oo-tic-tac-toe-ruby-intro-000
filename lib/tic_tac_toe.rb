@@ -117,13 +117,11 @@ class TicTacToe
       turn
     end
 
-    if winner == "X"
-      return "Congratulations X!"
-    elsif winner == "O"
-       return Congratulations O!
+    if won?
+      return "Congratulations #{winner}!"
     else
       return "Cat's Game!"
-    end
+
   end
 
 
