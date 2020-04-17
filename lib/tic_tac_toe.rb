@@ -105,7 +105,7 @@ class TicTacToe
     if won?
       if @board[win_combo[0]] == "X"
         return "X"
-      else
+      elsif @board[win_combo[0]] == "O"
         return "O"
       end
     end
