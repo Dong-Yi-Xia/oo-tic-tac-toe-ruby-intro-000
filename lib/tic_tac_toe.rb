@@ -90,7 +90,7 @@ class TicTacToe
 
 
   def full?
-    @board.none?{|i| i != " "}
+    @board.all?{|i| i == "X" || i == "O"}
   end
 
 end
