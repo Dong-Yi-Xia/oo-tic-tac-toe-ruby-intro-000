@@ -118,7 +118,7 @@ class TicTacToe
     end
     if won?
       return "Congratulations #{winner}!"
-    else
+    elsif draw?
       return "Cat's Game!"
     end
   end
