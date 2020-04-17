@@ -104,7 +104,7 @@ class TicTacToe
   def winnner
     if won?
       return win_combo[0]
-      
+
     end
   end
 
