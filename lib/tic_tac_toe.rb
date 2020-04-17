@@ -120,7 +120,6 @@ class TicTacToe
       return "Congratulations #{winner}!"
     else
       return "Cat's Game!"
-
   end
 
 
