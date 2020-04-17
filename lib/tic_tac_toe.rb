@@ -101,6 +101,10 @@ class TicTacToe
     full? || won?
   end
 
+  def winnner
+    
+  end
+
 
 
 end
