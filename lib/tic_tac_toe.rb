@@ -126,7 +126,7 @@ class TicTacToe
         return "Cat's Game!"
       end
 
-  
+
   end
 
 
