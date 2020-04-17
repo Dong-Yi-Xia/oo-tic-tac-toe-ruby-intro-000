@@ -118,6 +118,11 @@ class TicTacToe
 
       if winner == "X"
         return "Congratulations X!"
+      elsif winner == "O"
+        return Congratulations O!
+      else
+        return "Cat's Game!"
+
 
       end
 
