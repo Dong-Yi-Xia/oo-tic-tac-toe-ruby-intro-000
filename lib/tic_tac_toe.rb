@@ -113,7 +113,6 @@ class TicTacToe
   end
 
   def play
-
     until over?
       turn
     end
@@ -125,8 +124,6 @@ class TicTacToe
     else
       return "Cat's Game!"
     end
-
-
   end
 
 
