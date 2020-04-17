@@ -122,8 +122,6 @@ class TicTacToe
         return Congratulations O!
       else
         return "Cat's Game!"
-
-
       end
 
     end
