@@ -103,10 +103,13 @@ class TicTacToe
 
   def winnner
     if won?
-      return win_combo[0]
-    else
-      return nil
+      if win_combo[0] == "X"
+        return "X"
+      else
+        return "O"
+      end
     end
+    return nil
   end
 
 
