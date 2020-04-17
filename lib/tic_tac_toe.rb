@@ -113,7 +113,15 @@ class TicTacToe
   end
 
   def play
+    until draw? || over? || won?
+      turn
 
+      if winner == "X"
+        return "Congratulations X!"
+
+      end
+
+    end
   end
 
 
