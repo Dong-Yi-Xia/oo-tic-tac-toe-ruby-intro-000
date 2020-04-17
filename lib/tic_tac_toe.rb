@@ -116,7 +116,6 @@ class TicTacToe
     until over?
       turn
     end
-
     if won?
       return "Congratulations #{winner}!"
     else
