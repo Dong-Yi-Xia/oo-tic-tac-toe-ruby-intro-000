@@ -88,16 +88,19 @@ class TicTacToe
     return false
   end
 
-
   def full?
     # @board.all?{|i| i == "X" || i == "O"}
     @board.none?{|i| i == " "}
   end
 
-
   def draw?
     full? && !won?
   end
 
+  def over?
+    
+  end
+  
+  
 
 end
