@@ -60,7 +60,6 @@ class TicTacToe
   end
 
   def turn
-    puts "#{current_player}"
     puts "Current Player: Please enter 1-9"
     num = gets.strip
     index = input_to_index(num)
